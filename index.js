@@ -85,6 +85,7 @@ class Bot extends EventEmitter {
     self._client.on('end', () => {
       self.emit('stop_plugins');
       self.emit('end');
+      self.removeAllListeners();
     });
     if (!self._client.wait_connect) next();
     else self._client.once('connect_allowed', next);

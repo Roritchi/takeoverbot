@@ -3,7 +3,7 @@ A Minecraft Bot which you can take over at any time
 
 # Installation
 
-### Prerequisits
+### Prerequisites
 - NPM & Node.js
 - Install required packages with `npm install`
 
@@ -33,3 +33,7 @@ bot.on('end', () => {
 });
 
 ```
+
+# Credits
+- [node-minecraft-protocol](https://github.com/PrismarineJS/node-minecraft-protocol)
+- [mineflayer](https://github.com/PrismarineJS/mineflayer/) for some good code ;)
